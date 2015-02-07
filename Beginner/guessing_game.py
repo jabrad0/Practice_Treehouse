@@ -25,9 +25,9 @@ while len(guessed_nums) < allowed_guesses:
         break
     else:
         if rand_num > player_num:
-            print("Nope! My number is higher that {}. Guess #{}.".format(player_num, len(guessed_nums)))
+            print("Nope! My number is higher than {}. Guess #{}.".format(player_num, len(guessed_nums)))
         else:
-            print("Nope! My number is lower that {}. Guess #{}.".format(player_num, len(guessed_nums)))
+            print("Nope! My number is lower than {}. Guess #{}.".format(player_num, len(guessed_nums)))
         continue
 
 if not rand_num in guessed_nums:
